@@ -64,6 +64,15 @@
     "debug": "nodaemon index.js"
     },
 
-    1.
+    3)
     [helloweb-ex02] $ npm start     (서비스 운용시)
     [helloweb-ex02] $ npm run debug (개발시)
+
+    4) 디렉토리 구조
+    [helloweb-ex02] $ mkdir public
+    [helloweb-ex02] $ mkdir route
+    [helloweb-ex02] $ mkdir controllers
+    [helloweb-ex02] $ mkdir models
+    [helloweb-ex02] $ mkdir views
+    
+    
