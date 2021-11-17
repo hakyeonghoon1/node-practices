@@ -13,7 +13,7 @@ const application = express()
     .use(express.static(path.join(__dirname,'public')))
     // 2. requeset body parser
     .use(express.urlencoded({extended: true}))   // application/x-www-form-urlencoded
-    .use(express.json())                        // application/json
+    .use(express.json())                         // application/json
     // 3. view engine setup
     .set('views',path.join(__dirname,'views'))
     .set('view engine','ejs')

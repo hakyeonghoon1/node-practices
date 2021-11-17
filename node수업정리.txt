@@ -104,7 +104,7 @@
 
     4) 디렉토리 구조
     [emaillist] $ mkdir public
-    [emaillist] $ mkdir route
+    [emaillist] $ mkdir routes
     [emaillist] $ mkdir controllers
     [emaillist] $ mkdir models
     [emaillist] $ mkdir views
@@ -134,12 +134,12 @@
 
     4) 디렉토리 구조
     [guestbook] $ mkdir public
-    [guestbook] $ mkdir route
+    [guestbook] $ mkdir routes
     [guestbook] $ mkdir controllers
     [guestbook] $ mkdir models
     [guestbook] $ mkdir views
     
-10. mysite(models based on Sequelize) - ORM 기반
+11. mysite(models based on Sequelize) - ORM 기반
 
 1. orm(Sequelize) -> JS Test
 2. user(session, 인증, 접근제어), jQuery(ajax) + API
