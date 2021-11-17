@@ -39,8 +39,8 @@
     |--- [multer-temporary-store]
     |--- config
     |--- public
+    |       |--- [upload-images]
     |       |--- assets
-    |       |       |--- [upload-images]
     |       |       |--- css
     |       |       |--- images
     |       |       |--- js
