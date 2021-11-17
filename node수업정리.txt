@@ -147,4 +147,5 @@
 4. dotenv(configuration: DB connection, pory, static directory)
 5. log(winston)
 6. fileupload(multer)
+7. error 처리
     
