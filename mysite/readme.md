@@ -7,13 +7,13 @@
 [mysite] $ npm  i mysql2
 [mysite] $ npm  i express-session
 [mysite] $ npm  i sequelize
-[mysite] $ npm  i dotnev                (3)
+[mysite] $ npm  i dotnev                (4)
 [mysite] $ npm  i multer
 [mysite] $ npm  i winston
 [mysite] $ npm  i winston-rotate-file
 [mysite] $ npm  i moment
 
-[mysite] $ npm  i -D nodemon
+[mysite] $ npm  i -D nodemon            (3)
 [mysite] $ npm  i -D mocha
 [mysite] $ npm  i -D chai
 ```
