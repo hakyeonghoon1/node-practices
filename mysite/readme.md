@@ -5,13 +5,13 @@
 [mysite] $ npm  i express                        (1)
 [mysite] $ npm  i ejs                            (2)
 [mysite] $ npm  i mysql2                         (7)
-[mysite] $ npm  i express-session
+[mysite] $ npm  i express-session                (9)
 [mysite] $ npm  i sequelize                      (8)
 [mysite] $ npm  i dotnev                         (4)
 [mysite] $ npm  i multer
 [mysite] $ npm  i winston                        (5)    logging
 [mysite] $ npm  i winston-daily-rotate-file      (6)    logging
-[mysite] $ npm  i moment
+[mysite] $ npm  i moment                         
 
 [mysite] $ npm  i -D nodemon                     (3)
 [mysite] $ npm  i -D mocha
