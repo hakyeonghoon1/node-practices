@@ -9,8 +9,8 @@
 [mysite] $ npm  i sequelize
 [mysite] $ npm  i dotnev                (4)
 [mysite] $ npm  i multer
-[mysite] $ npm  i winston
-[mysite] $ npm  i winston-rotate-file
+[mysite] $ npm  i winston               (5)
+[mysite] $ npm  i winston-daily-rotate-file   (6)
 [mysite] $ npm  i moment
 
 [mysite] $ npm  i -D nodemon            (3)
