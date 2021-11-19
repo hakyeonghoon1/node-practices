@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const dotenv = require('dotenv');
 const session = require('express-session');
+const multer = require('multer');
 
 
 
@@ -34,7 +35,9 @@ const application = express()
     .use(express.json())                         // application/json
     
     // 4-3. Multipart
-
+    .use(multer({
+        dest:path.join(__dirname,process.env.MULTER_TEMPORARY_STORE)
+    }).single('file'))
     // 4-4. static resources
     .use(express.static(path.join(__dirname,process.env.STATIC_RESOURCES_DIRECTORY)))
     

@@ -9,9 +9,34 @@ const sequelize =new Sequelize(process.env.DB_NAME, process.env.DB_USER,process.
 // Import Mapping Object
 const User = require('./User')(sequelize);
 const Guestbook = require('./Guestbook')(sequelize);
+const Gallery = require('./Gallery')(sequelize);
+const Board = require('./Board')(sequelize);
 
+User.hasMany(Board,{
+    foreignkey:{
+        name:'userNo',
+        allowNull:false,
+        constraints:true,
+        onDelete:'CASCADE'
+    }
+})
 // DB에 반영(DDL)
 User.sync({
+    force:process.env.TABLE_CREATE_ALWAYS ==='true',
+    alter:process.env.TABLE_CREATE_ALWAYS ==='true'
+});
+
+Guestbook.sync({
+    force:process.env.TABLE_CREATE_ALWAYS ==='true',
+    alter:process.env.TABLE_CREATE_ALWAYS ==='true'
+});
+
+Gallery.sync({
+    force:process.env.TABLE_CREATE_ALWAYS ==='true',
+    alter:process.env.TABLE_CREATE_ALWAYS ==='true'
+});
+
+Board.sync({
     force:process.env.TABLE_CREATE_ALWAYS ==='true',
     alter:process.env.TABLE_CREATE_ALWAYS ==='true'
 });
@@ -20,3 +45,5 @@ User.sync({
 // Export Mapping Object
 module.exports={User};
 module.exports={Guestbook};
+module.exports={Gallery};
+module.exports={Board};

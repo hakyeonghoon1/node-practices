@@ -8,10 +8,10 @@
 [mysite] $ npm  i express-session                (9)
 [mysite] $ npm  i sequelize                      (8)
 [mysite] $ npm  i dotnev                         (4)
-[mysite] $ npm  i multer
+[mysite] $ npm  i multer                         (11)
 [mysite] $ npm  i winston                        (5)    logging
 [mysite] $ npm  i winston-daily-rotate-file      (6)    logging
-[mysite] $ npm  i moment                         
+[mysite] $ npm  i moment                         (10)
 
 [mysite] $ npm  i -D nodemon                     (3)
 [mysite] $ npm  i -D mocha
