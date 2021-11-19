@@ -8,7 +8,7 @@ const sequelize =new Sequelize(process.env.DB_NAME, process.env.DB_USER,process.
 
 // Import Mapping Object
 const User = require('./User')(sequelize);
-
+const Guestbook = require('./Guestbook')(sequelize);
 
 // DB에 반영(DDL)
 User.sync({
@@ -19,3 +19,4 @@ User.sync({
 
 // Export Mapping Object
 module.exports={User};
+module.exports={Guestbook};

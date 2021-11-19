@@ -28,6 +28,12 @@ module.exports = function(sequelize){
             type:DataTypes.ENUM('male','female'),
             allowNull:false
         },
+        joinDate:{
+            field:'join_date',
+            type:DataTypes.DATE,
+            defaultValue:sequelize.NOW,
+            allowNull:false
+        },
         role:{
             field:'role',
             type:DataTypes.ENUM('USER','ADMIN'),
